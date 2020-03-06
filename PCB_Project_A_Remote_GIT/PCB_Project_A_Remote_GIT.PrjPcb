@@ -30,10 +30,10 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=8A9B1D42-D05E-4368-AF9C-375AEF7A1370
+ManagedProjectGUID=9FF6F9CB-B7F6-47A3-9F0F-C4C641352D6A
 VaultGUID=EF8C8A20-1460-49A2-85A7-10A3097E5830
 ReleaseVaultName=VCS_1
-ItemGUID=8A9B1D42-D05E-4368-AF9C-375AEF7A1370
+ItemGUID=9FF6F9CB-B7F6-47A3-9F0F-C4C641352D6A
 IncludeDesignInRelease=0
 
 [Preferences]
