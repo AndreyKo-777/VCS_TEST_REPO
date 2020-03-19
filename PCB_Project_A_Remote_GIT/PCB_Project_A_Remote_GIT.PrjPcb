@@ -30,7 +30,11 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-
+ManagedProjectGUID=9BD36F32-4A41-41D5-A6F7-5140729D7E83
+VaultGUID=B4222A0D-8740-46F5-90AE-90E1775A8522
+ReleaseVaultName=PROD_SMOKE
+ItemGUID=9BD36F32-4A41-41D5-A6F7-5140729D7E83
+IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -376,7 +380,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=\\KIVCORPDC02\Canon MF247dw (Kyiv Office)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
