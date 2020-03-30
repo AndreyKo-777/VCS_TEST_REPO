@@ -1,4 +1,4 @@
-﻿[Design]
+[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -30,6 +30,11 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
+ManagedProjectGUID=823F108C-7BA5-4042-8F03-95008E96B2DF
+VaultGUID=286D668D-A79B-4DCC-8299-F3082E745EB6
+ReleaseVaultName=VCS_TEEST
+ItemGUID=823F108C-7BA5-4042-8F03-95008E96B2DF
+IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -375,7 +380,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=????????? ? OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
