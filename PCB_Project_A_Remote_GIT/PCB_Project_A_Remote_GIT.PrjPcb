@@ -30,11 +30,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=AF153512-445B-46B5-A317-90743521AC41
-VaultGUID=10BD6E48-244D-44B9-8EBD-A2DAA64432E3
-ReleaseVaultName=Altium Dev AD Subscription_Balatsko
-ItemGUID=AF153512-445B-46B5-A317-90743521AC41
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=
