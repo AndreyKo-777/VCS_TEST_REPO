@@ -43,7 +43,7 @@ PrefsRevisionGUID=
 [Release]
 ReleaseTarget=2
 ReleaseFolderPath=[OutputPath]
-ReleaseZipPath=C:\Users\Andrii.Dereviaga\Desktop
+ReleaseZipPath=C:\Users\Andrii.Dereviaga\Desktop\123
 
 [Document1]
 DocumentPath=Sheet1.SchDoc
