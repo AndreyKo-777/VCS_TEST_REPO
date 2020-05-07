@@ -41,7 +41,9 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Release]
-ReleaseTarget=3
+ReleaseTarget=2
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=C:\Users\Andrii.Dereviaga\Desktop
 
 [Document1]
 DocumentPath=Sheet1.SchDoc
