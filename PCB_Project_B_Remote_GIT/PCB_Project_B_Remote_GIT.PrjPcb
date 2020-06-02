@@ -16,7 +16,7 @@ AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
-DefaultConfiguration=
+DefaultConfiguration=Sources
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
@@ -30,7 +30,11 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-
+ManagedProjectGUID=9DC1B4E4-BB52-4C91-B198-D8B02F19B79B
+VaultGUID=A80736EE-2769-4408-952F-8C24D889B567
+ReleaseVaultName=TriageSpace
+ItemGUID=9DC1B4E4-BB52-4C91-B198-D8B02F19B79B
+IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -227,7 +231,7 @@ Value=A
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=F4B7E61E-BBC6-426F-8CB6-CFE15D4768E7
+ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
@@ -365,7 +369,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
