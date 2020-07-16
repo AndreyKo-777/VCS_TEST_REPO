@@ -30,11 +30,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=D760B629-8226-475B-9B03-A4B16725E8CA
-VaultGUID=CCEC2442-C0E9-4701-A7B0-D17806CF4492
-ReleaseVaultName=Smoke_Update_4
-ItemGUID=D760B629-8226-475B-9B03-A4B16725E8CA
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=
