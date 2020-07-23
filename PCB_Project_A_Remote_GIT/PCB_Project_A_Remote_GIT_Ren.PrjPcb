@@ -45,7 +45,7 @@ PrefsRevisionGUID=
 ReleaseTarget=3
 
 [Document1]
-DocumentPath=Sheet1.SchDoc
+DocumentPath=Sheet1_Ren.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
