@@ -31,11 +31,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=0E401907-B9B3-4CC1-87FC-B3942D1CF80E
-VaultGUID=84B35CFE-71EF-4F53-B8C6-511286B59AC1
-ReleaseVaultName=Circuit_Studio
-ItemGUID=0E401907-B9B3-4CC1-87FC-B3942D1CF80E
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=
