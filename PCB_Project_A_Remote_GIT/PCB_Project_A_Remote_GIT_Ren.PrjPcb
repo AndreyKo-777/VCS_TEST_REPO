@@ -30,9 +30,9 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=0D7A8E20-45FD-4266-A179-EF0B48151468
-VaultGUID=C7A0572B-716A-4F11-867C-406CF99DFF42
-ReleaseVaultName=IntLib_Migration
+ManagedProjectGUID=4BD8B1A0-F174-49C4-883C-D7CEA7B5DDE4
+VaultGUID=812A92C0-BC92-469C-B93E-4A9FBC7C92DF
+ReleaseVaultName=Beta2_V2
 ItemGUID=0D7A8E20-45FD-4266-A179-EF0B48151468
 IncludeDesignInRelease=0
 
