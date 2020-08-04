@@ -30,10 +30,10 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=4BD8B1A0-F174-49C4-883C-D7CEA7B5DDE4
-VaultGUID=812A92C0-BC92-469C-B93E-4A9FBC7C92DF
-ReleaseVaultName=Beta2_V2
-ItemGUID=C9A2BAA1-8809-4494-A9CF-AEFBBB98ADB8
+ManagedProjectGUID=AA754CBE-CC1E-4EE3-A078-AB08D9AC966E
+VaultGUID=D5C1A005-EF9F-4779-BEEB-8D24EBCBA34B
+ReleaseVaultName=wip-comments-workspace
+ItemGUID=AA754CBE-CC1E-4EE3-A078-AB08D9AC966E
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -367,7 +367,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=OneNote for Windows 10 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
