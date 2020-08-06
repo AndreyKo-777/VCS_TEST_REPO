@@ -30,7 +30,11 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-
+ManagedProjectGUID=8F404B83-627B-4E0D-A9B3-1BEFF54B5A29
+VaultGUID=B7D21D8F-CBA6-4EC2-BCDE-7BF57FCB9A8B
+ReleaseVaultName=Test_Beta_3
+ItemGUID=8F404B83-627B-4E0D-A9B3-1BEFF54B5A29
+IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -363,7 +367,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote for Windows 10 (redirected 2)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
