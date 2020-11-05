@@ -16,7 +16,7 @@ AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
-DefaultConfiguration=
+DefaultConfiguration=Default Configuration
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
@@ -32,18 +32,11 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=17EC8F16-0D0F-4D86-ACCF-DD5B46638602
-VaultGUID=C0E9ECE5-66CC-4338-BA15-F81780DA8FDB
-ReleaseVaultName=Special_Strings_Version_1
-ItemGUID=17EC8F16-0D0F-4D86-ACCF-DD5B46638602
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
-
-[Release]
-ReleaseTarget=3
 
 [Document1]
 DocumentPath=Sheet1_1.SchDoc
@@ -171,9 +164,9 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=1
 Variation1=Designator=LS?|UniqueId=\DJCMXPLG|Kind=2|AlternatePart=SPU0409HD5H-PB|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=Special_Strings_Testing|AltLibLink_SymbolReference=CMP-00027-00001-1|AltLibLink_DesignItemID=CMP-00027-00001-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Special_Strings_Testing|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID=440CE2C0-7FB0-4303-88BB-78DE80A40E19|AltLibLink_ItemGUID=40A4552F-B7DD-4D29-B060-A2D3484847E6|AltLibLink_RevisionGUID=19B2F8FC-825E-45E5-A7BA-AE7C9096F115|AltLibLink_Footprint=KNOW-SPU0409HD5H-PB_V|AltLibLink_IsSameFootprint=False
-ParamVariation1=ParameterName=Comment|VariantValue=SPU0409HD5H-PB
+ParamVariation1=ParameterName=Case/Package|VariantValue=SPU0409HD5H-PB
 ParamDesignator1=LS?
-ParamVariation2=ParameterName=Case/Package|VariantValue=SPU0409HD5H-PB
+ParamVariation2=ParameterName=Comment|VariantValue=SPU0409HD5H-PB
 ParamDesignator2=LS?
 ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator3=LS?
@@ -226,122 +219,128 @@ ParamDesignator26=LS?
 ParamVariationCount=26
 
 [Parameter1]
-Name=CAGE_CODE
-Value=?????
-
-[Parameter2]
-Name=CONTRACT_NUMBER
-Value=<CONTRACT NO>
-
-[Parameter3]
-Name=DOC_NO_ASSY_DWG
-Value=<ASSY DWG NO>
-
-[Parameter4]
-Name=DOC_NO_BOM
-Value=<BOM DOC NO>
-
-[Parameter5]
-Name=DOC_NO_FAB_DWG
-Value=<FAB DWG NO>
-
-[Parameter6]
-Name=DOC_NO_SCH_DWG
-Value=<SCH DWG NO>
-
-[Parameter7]
-Name=PCB_2_DEC_TOL
-Value=+/-.01
-
-[Parameter8]
-Name=PCB_3_DEC_TOL
-Value=+/-.010
-
-[Parameter9]
-Name=PCB_ANG_TOL
-Value=+/-1/2
-
-[Parameter10]
-Name=PCB_ASSEMBLY_NO
-Value=<PCB ASSY NO>
-
-[Parameter11]
-Name=PCB_CHECKER
-Value=- -----
-
-[Parameter12]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
-
-[Parameter13]
-Name=PCB_DESIGNER
-Value=- -----
-
-[Parameter14]
-Name=PCB_DESIGNER_APP_DATE
-Value=--/--/----
-
-[Parameter15]
-Name=PCB_DWG_NO
-Value=<PCB DWG NO>
-
-[Parameter16]
-Name=PCB_ENGINEER
-Value=- -----
-
-[Parameter17]
-Name=PCB_ENGINEER_APP_DATE
-Value=--/--/----
-
-[Parameter18]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
-
-[Parameter19]
-Name=PCB_REV
-Value=A
-
-[Parameter20]
 Name=SCH_REV
 Value=A
 
+[Parameter2]
+Name=PCB_REV
+Value=A
+
+[Parameter3]
+Name=PCB_PART_NUMBER
+Value=<PCB PN>
+
+[Parameter4]
+Name=PCB_ENGINEER_APP_DATE
+Value=--/--/----
+
+[Parameter5]
+Name=PCB_ENGINEER
+Value=- -----
+
+[Parameter6]
+Name=PCB_DWG_NO
+Value=<PCB DWG NO>
+
+[Parameter7]
+Name=PCB_DESIGNER_APP_DATE
+Value=--/--/----
+
+[Parameter8]
+Name=PCB_DESIGNER
+Value=- -----
+
+[Parameter9]
+Name=PCB_CHECKER_APP_DATE
+Value=--/--/----
+
+[Parameter10]
+Name=PCB_CHECKER
+Value=- -----
+
+[Parameter11]
+Name=PCB_ASSEMBLY_NO
+Value=<PCB ASSY NO>
+
+[Parameter12]
+Name=PCB_ANG_TOL
+Value=+/-1/2
+
+[Parameter13]
+Name=PCB_3_DEC_TOL
+Value=+/-.010
+
+[Parameter14]
+Name=PCB_2_DEC_TOL
+Value=+/-.01
+
+[Parameter15]
+Name=DOC_NO_SCH_DWG
+Value=<SCH DWG NO>
+
+[Parameter16]
+Name=DOC_NO_FAB_DWG
+Value=<FAB DWG NO>
+
+[Parameter17]
+Name=DOC_NO_BOM
+Value=<BOM DOC NO>
+
+[Parameter18]
+Name=DOC_NO_ASSY_DWG
+Value=<ASSY DWG NO>
+
+[Parameter19]
+Name=CONTRACT_NUMBER
+Value=<CONTRACT NO>
+
+[Parameter20]
+Name=CAGE_CODE
+Value=?????
+
 [Configuration1]
+Name=Default Configuration
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
+ConfigurationType=Custom
+
+[Configuration2]
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=4788AECC-244F-4D0A-9242-D03A5268CB49
+ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
-[Configuration2]
+[Configuration3]
 Name=Fabrication
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=
 ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Fabrication
 
-[Configuration3]
+[Configuration4]
 Name=Assembly
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Assembly
-
-[Configuration4]
-Name=Assembly Variant of Project_1_Special_Strings
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=Variant of Project_1_Special_Strings
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
@@ -351,7 +350,7 @@ OutputDir=Project Outputs
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=Отправить в OneNote 2013 (redirected 4)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -457,7 +456,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=Отправить в OneNote 2013 (redirected 4)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -535,7 +534,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=Отправить в OneNote 2013 (redirected 4)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -557,7 +556,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=Отправить в OneNote 2013 (redirected 4)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -631,7 +630,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=Отправить в OneNote 2013 (redirected 4)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -680,7 +679,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=Отправить в OneNote 2013 (redirected 4)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -788,7 +787,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=Отправить в OneNote 2013 (redirected 4)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -832,7 +831,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=Отправить в OneNote 2013 (redirected 4)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -879,23 +878,23 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=MBAExportPARASOLID
-OutputName10=Export PARASOLID
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=MBAExportSTEP
-OutputName11=Export STEP
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
+OutputType12=MBAExportPARASOLID
+OutputName12=Export PARASOLID
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
+OutputType13=MBAExportSTEP
+OutputName13=Export STEP
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
@@ -923,7 +922,7 @@ OutputDefault17=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=Отправить в OneNote 2013 (redirected 4)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1272,10 +1271,6 @@ L17=WNNNNNNNWNNNWWWWN
 SortOrder=3
 SortLocation=0
 ReplaceSubparts=0
-MatchParameter1=Comment
-MatchStrictly1=1
-MatchParameter2=Library Reference
-MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
