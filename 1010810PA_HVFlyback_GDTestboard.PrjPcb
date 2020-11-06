@@ -32,12 +32,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=F523F3DC-B57F-4459-A1E2-013A97C8DE28
-VaultGUID=B7B38FBF-088F-4C0F-9A83-CBAB0A82D4CD
-ReleaseVaultName=001_Reproducing
-ItemGUID=F523F3DC-B57F-4459-A1E2-013A97C8DE28
-Template=N:\Tools\Altium\Vorlagen\DRIVETEK Default.PrjPcb
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=
