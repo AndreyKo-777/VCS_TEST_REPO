@@ -32,7 +32,11 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=
 LogFolderPath=
-
+ManagedProjectGUID=01288E43-76D4-415C-8916-1B5057FD93E5
+VaultGUID=13A00D45-BC59-42A4-A776-89A6CEA01109
+ReleaseVaultName=77777
+ItemGUID=01288E43-76D4-415C-8916-1B5057FD93E5
+IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -242,72 +246,72 @@ Name=Variante
 Value=001
 
 [Parameter1]
-Name=Variante_PB
-Value=000
+Name=a5_Rev_PB
+Value=001
 
 [Parameter2]
-Name=Typ_ST
-Value=ST
+Name=a51_Rev_GB
+Value=001
 
 [Parameter3]
-Name=Typ_SC
-Value=SC
+Name=a52_Rev_AD
+Value=001
 
 [Parameter4]
-Name=Typ_PD
-Value=PD
+Name=Artikel_Stamm
+Value=1010829
 
 [Parameter5]
-Name=Typ_PB
-Value=PB
+Name=ProjectTitle
+Value=HVFlyback_GDTestboard
 
 [Parameter6]
-Name=Typ_PA
-Value=PA
+Name=QReleaseDate
+Value=
 
 [Parameter7]
-Name=Typ_GB
-Value=GB
+Name=QReleasedBy
+Value=xxx
 
 [Parameter8]
-Name=Typ_BM
-Value=BM
+Name=s-------------------------------^Obenstehende Parameter ausfüllen^-----------------------------------------
+Value=-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [Parameter9]
 Name=Typ_AD
 Value=AD
 
 [Parameter10]
-Name=s-------------------------------^Obenstehende Parameter ausfüllen^-----------------------------------------
-Value=-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name=Typ_BM
+Value=BM
 
 [Parameter11]
-Name=QReleasedBy
-Value=xxx
+Name=Typ_GB
+Value=GB
 
 [Parameter12]
-Name=QReleaseDate
-Value=
+Name=Typ_PA
+Value=PA
 
 [Parameter13]
-Name=ProjectTitle
-Value=HVFlyback_GDTestboard
+Name=Typ_PB
+Value=PB
 
 [Parameter14]
-Name=Artikel_Stamm
-Value=1010829
+Name=Typ_PD
+Value=PD
 
 [Parameter15]
-Name=a52_Rev_AD
-Value=001
+Name=Typ_SC
+Value=SC
 
 [Parameter16]
-Name=a51_Rev_GB
-Value=001
+Name=Typ_ST
+Value=ST
 
 [Parameter17]
-Name=a5_Rev_PB
-Value=001
+Name=Variante_PB
+Value=000
 
 [Configuration1]
 Name=Sources
@@ -363,7 +367,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 4)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -469,7 +473,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 4)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -549,7 +553,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 4)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -571,7 +575,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 4)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -643,7 +647,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 4)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -696,7 +700,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 4)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -804,7 +808,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 4)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -848,7 +852,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 4)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -909,7 +913,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 4)
+TargetPrinter=Отправить в OneNote 2013 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
