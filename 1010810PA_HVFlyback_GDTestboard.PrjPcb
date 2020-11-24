@@ -30,11 +30,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=D9AA2DE6-0C82-4580-9B99-730A06E875AF
-VaultGUID=3AB30B09-A3F3-4541-A0D7-5ED10ED5D1AD
-ReleaseVaultName=AD_SMOKE_1
-ItemGUID=D9AA2DE6-0C82-4580-9B99-730A06E875AF
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=

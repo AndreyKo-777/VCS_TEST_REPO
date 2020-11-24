@@ -32,11 +32,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=81EF4BD7-D053-4A06-B5A3-0E14CBA4E289
-VaultGUID=3AB30B09-A3F3-4541-A0D7-5ED10ED5D1AD
-ReleaseVaultName=AD_SMOKE_1
-ItemGUID=81EF4BD7-D053-4A06-B5A3-0E14CBA4E289
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=
