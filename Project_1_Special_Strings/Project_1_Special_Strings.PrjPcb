@@ -32,11 +32,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=54491619-E186-4244-BA23-083FE868DFC6
-VaultGUID=8C3A76E0-8044-4467-9240-B693F814C75C
-ReleaseVaultName=000-ARK
-ItemGUID=54491619-E186-4244-BA23-083FE868DFC6
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=
