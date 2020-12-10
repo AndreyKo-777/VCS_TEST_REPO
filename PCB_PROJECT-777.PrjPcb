@@ -16,7 +16,7 @@ AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
-DefaultConfiguration=Sources
+DefaultConfiguration=Default Configuration
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
@@ -32,23 +32,24 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-
+ManagedProjectGUID=ACB2842B-03EA-4581-B473-49DDA3865AF9
+VaultGUID=8C3A76E0-8044-4467-9240-B693F814C75C
+ReleaseVaultName=000-ARK
+Template=C:\ProgramData\Altium\Altium Designer Dev {B12D9566-9B1E-4772-A1B1-45E46561DC2B}\VaultsFileCache\cef2f5324a3397c3e6ebb985b53a75dd\Released\PCB_Project1.PrjPCB
+IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
-[Release]
-ReleaseTarget=3
-
 [Document1]
-DocumentPath=Sheet1_1.SchDoc
+DocumentPath=Sheet1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -56,10 +57,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LMQCTPAH
+DocumentUniqueId=CJHNTGTK
 
 [Document2]
-DocumentPath=Assembly_1.OutJob
+DocumentPath=Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -76,7 +77,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=Documentation_1.OutJob
+DocumentPath=Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -93,7 +94,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=Fabrication_1.OutJob
+DocumentPath=Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -110,7 +111,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=PCB1_1.PcbDoc
+DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -127,7 +128,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RJHOKYIJ
 
 [Document6]
-DocumentPath=ActiveBOM_1.BomDoc
+DocumentPath=ActiveBOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -142,84 +143,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document7]
-DocumentPath=PCB1_1.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[ProjectVariant1]
-UniqueID=8AFC7D98-D9ED-4088-9CA8-1AD6261CD5C9
-Description=Variant of Project_1_Special_Strings
-AllowFabrication=0
-ParameterCount=0
-VariationCount=1
-Variation1=Designator=LS?|UniqueId=\DJCMXPLG|Kind=2|AlternatePart=SPU0409HD5H-PB|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=Special_Strings_Testing|AltLibLink_SymbolReference=CMP-00027-00001-1|AltLibLink_DesignItemID=CMP-00027-00001-1|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Special_Strings_Testing|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID=440CE2C0-7FB0-4303-88BB-78DE80A40E19|AltLibLink_ItemGUID=40A4552F-B7DD-4D29-B060-A2D3484847E6|AltLibLink_RevisionGUID=19B2F8FC-825E-45E5-A7BA-AE7C9096F115|AltLibLink_Footprint=KNOW-SPU0409HD5H-PB_V|AltLibLink_IsSameFootprint=False
-ParamVariation1=ParameterName=Comment|VariantValue=SPU0409HD5H-PB
-ParamDesignator1=LS?
-ParamVariation2=ParameterName=Case/Package|VariantValue=SPU0409HD5H-PB
-ParamDesignator2=LS?
-ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator3=LS?
-ParamVariation4=ParameterName=Datasheet URL|VariantValue=http://datasheet.octopart.com/SPU0409HD5H-PB-Knowles-Acoustics-datasheet-17019172.pdf
-ParamDesignator4=LS?
-ParamVariation5=ParameterName=Datasheet Version|VariantValue=Rev. F, 03/2013
-ParamDesignator5=LS?
-ParamVariation6=ParameterName=Description|VariantValue=SiSonic(TM) Microphone, 1.5 to 3.6 V, -40 to 100 degC, 4-Pin SMD, RoHS, Tape and Reel
-ParamDesignator6=LS?
-ParamVariation7=ParameterName=Footprint|VariantValue=KNOW-SPU0409HD5H-PB_V
-ParamDesignator7=LS?
-ParamVariation8=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator8=LS?
-ParamVariation9=ParameterName=Impedance|VariantValue=100Ohm
-ParamDesignator9=LS?
-ParamVariation10=ParameterName=Library Reference|VariantValue=CMP-00027-00001-1
-ParamDesignator10=LS?
-ParamVariation11=ParameterName=Manufacturer|VariantValue=Knowles Acoustics
-ParamDesignator11=LS?
-ParamVariation12=ParameterName=Manufacturer URL|VariantValue=http://www.knowles.com/
-ParamDesignator12=LS?
-ParamVariation13=ParameterName=Max Operating Temperature|VariantValue= 
-ParamDesignator13=LS?
-ParamVariation14=ParameterName=Min Operating Temperature|VariantValue= 
-ParamDesignator14=LS?
-ParamVariation15=ParameterName=Mounting Technology|VariantValue=SM
-ParamDesignator15=LS?
-ParamVariation16=ParameterName=Package Description|VariantValue=4-Pin Surface Mount Device, Body 3.76 x 2.95 mm
-ParamDesignator16=LS?
-ParamVariation17=ParameterName=Package Quantity|VariantValue=1200
-ParamDesignator17=LS?
-ParamVariation18=ParameterName=Package Reference|VariantValue=SPU0409HD5H-PB
-ParamDesignator18=LS?
-ParamVariation19=ParameterName=Packaging|VariantValue=TapeandReel
-ParamDesignator19=LS?
-ParamVariation20=ParameterName=PCB3D|VariantValue= 
-ParamDesignator20=LS?
-ParamVariation21=ParameterName=Pin Info|VariantValue= 
-ParamDesignator21=LS?
-ParamVariation22=ParameterName=Pins|VariantValue= 
-ParamDesignator22=LS?
-ParamVariation23=ParameterName=RoHS Compliant|VariantValue=True
-ParamDesignator23=LS?
-ParamVariation24=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator24=LS?
-ParamVariation25=ParameterName=Simulation|VariantValue= 
-ParamDesignator25=LS?
-ParamVariation26=ParameterName=Voltage Rating|VariantValue=3.6V
-ParamDesignator26=LS?
-ParamVariationCount=26
 
 [Parameter1]
 Name=CAGE_CODE
@@ -302,54 +225,48 @@ Name=SCH_REV
 Value=A
 
 [Configuration1]
+Name=Default Configuration
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
+ConfigurationType=Custom
+
+[Configuration2]
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=009DB755-C112-46E9-B7DE-AC3D98322BF5
+ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=3
+OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=Assembly_1.OutJob
-DocumentReferenceClass2=DocumentReference
-OutputJobFileName2=Documentation_1.OutJob
-DocumentReferenceClass3=DocumentReference
-OutputJobFileName3=Fabrication_1.OutJob
+OutputJobFileName1=
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
-[Configuration2]
+[Configuration3]
 Name=Fabrication
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=986178D1-7DE0-4C45-B1BE-2BD225A5675D
+ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=3
+OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=Assembly_1.OutJob
-DocumentReferenceClass2=DocumentReference
-OutputJobFileName2=Documentation_1.OutJob
-DocumentReferenceClass3=DocumentReference
-OutputJobFileName3=Fabrication_1.OutJob
+OutputJobFileName1=
 ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Fabrication
 
-[Configuration3]
+[Configuration4]
 Name=Assembly
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Assembly
-
-[Configuration4]
-Name=Assembly Variant of Project_1_Special_Strings
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=Variant of Project_1_Special_Strings
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
