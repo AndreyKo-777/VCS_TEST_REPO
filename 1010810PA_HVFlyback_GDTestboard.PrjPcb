@@ -32,11 +32,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=4C8F228C-3727-4B3D-9FD0-BC371C400364
-VaultGUID=74BF8809-C68F-4921-8AFA-A97F71A8263E
-ReleaseVaultName=0001-smoke
-ItemGUID=4C8F228C-3727-4B3D-9FD0-BC371C400364
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=
