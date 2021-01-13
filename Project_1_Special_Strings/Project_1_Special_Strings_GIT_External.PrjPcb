@@ -33,9 +33,7 @@ IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
 ManagedProjectGUID=
-VaultGUID=0752DE53-651B-4CB5-9DD4-695AF2023EA9
-ReleaseVaultName=00_Many_Large_Projects
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=
