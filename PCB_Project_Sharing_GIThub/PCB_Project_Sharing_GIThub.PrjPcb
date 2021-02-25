@@ -24,6 +24,7 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
+AutoCrossReferences=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -32,7 +33,11 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-
+ManagedProjectGUID=A73AE7BE-7684-425E-8D88-11246EBDA6C0
+VaultGUID=9D54F817-5FDD-4812-B579-122AA38DD68A
+ReleaseVaultName=0001_New
+ItemGUID=A73AE7BE-7684-425E-8D88-11246EBDA6C0
+IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -139,6 +144,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document7]
+DocumentPath=Sheet2.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MWWOUJBV
+
+[Document8]
+DocumentPath=Sheet3.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JMTGNXJK
 
 [Parameter1]
 Name=CAGE_CODE
@@ -272,7 +311,7 @@ OutputDir=Project Outputs
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=OneNote for Windows 10 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -378,7 +417,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=OneNote for Windows 10 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -456,7 +495,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=OneNote for Windows 10 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -478,7 +517,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=OneNote for Windows 10 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -552,7 +591,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=OneNote for Windows 10 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -601,7 +640,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=OneNote for Windows 10 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -709,7 +748,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=OneNote for Windows 10 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -753,7 +792,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=OneNote for Windows 10 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -814,7 +853,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Отправить в OneNote 2013 (redirected 2)
+TargetPrinter=OneNote for Windows 10 (redirected 2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
